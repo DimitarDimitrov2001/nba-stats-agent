@@ -1,0 +1,16 @@
+[project]
+name = "nba-stats-agent"
+version = "0.1.0"
+description = "A Gradio chat agent for NBA player statistics"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "nba-api",
+    "pandas",
+    "langchain>=1",
+    "langchain-community",
+    "langchain-openai",
+    "sqlalchemy",
+    "gradio>=6",
+    "python-dotenv",
+]
